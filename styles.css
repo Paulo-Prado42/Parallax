@@ -6,49 +6,38 @@ body{
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
-
 h1,h2,h3,h4,h5,h6{
     font-weight: 900;
     color: black;
 }
-
-
-
 .wrapper{
     width: 100%;
     margin: 0 auto;
 }
-
 main{
 display: block;
 background-color: white;
 }
-
 .container{
     width: 100%;
     max-width: 760px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
 section.module p{
     margin-bottom: 40px;
 }
-
 section.module:last-child{
     margin-bottom: 0;
 }
-
 section.module h2{
     margin-bottom: 40px;
     font-size: 30px;
 }
-
 section.module.content{
     padding: 40px 0;
-    background: gainsboro;
+    background: white;
 }
-
 section.module.parallax{
     display: flex;
     flex-direction: column;
@@ -64,11 +53,8 @@ section.module.parallax{
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
-
 }
-
 section.module.parallax:after{
-
     content: "";
     height: 100%;
     width: 100%;
@@ -76,25 +62,18 @@ section.module.parallax:after{
     z-index: 8;
     background: linear-gradient(to bottom, rgba(0,0,0,0)0, rgba(0,0,0,0)40%,#000 100% );
     background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0)0, rgba(0,0,0,0)40%,#000 100% );
-
-
-
 }
-
-
 section.module.parallax-1{
-background-image: url(https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg);
+background-image: url(https://img.freepik.com/vetores-gratis/piramides-do-egito-e-rio-nilo-ao-anoitecer_107791-4897.jpg?t=st=1691514283~exp=1691514883~hmac=f4efc434050397e5a444aca6669e8d0e3fe656064f4b85965db14eb1646b4e83);
 
 }
-
 section.module.parallax-2{
-    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg);
+    background-image: url(https://img.freepik.com/vetores-gratis/terra-vista-a-noite-do-planeta-alienigena-espaco-de-neon_33099-1876.jpg?w=1380&t=st=1691500636~exp=1691501236~hmac=60b30d2d66e51b794fa7aec5fc94b69d96ccce13747eb59970b35cdb3bdca439);
 }
 
 section.module.parallax-3{
-    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg);
+    background-image: url(https://img.freepik.com/vetores-gratis/nave-espacial-vista-na-terra-a-noite-do-planeta-alienigena_33099-2125.jpg?w=1380&t=st=1691500622~exp=1691501222~hmac=f43660a97b1aae629fc5aa06c972bea6b6736a68a1852b2267e7e449e9266da8);
 }
-
 section.module.parallax h1{
 color: white;
 text-align: center;
